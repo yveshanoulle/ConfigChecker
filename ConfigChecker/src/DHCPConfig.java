@@ -1,4 +1,6 @@
 
+//test
+
 public class DHCPConfig {
 
 	public boolean LineIsCommented(String line)
