@@ -1,0 +1,23 @@
+
+public class DHCPConfig {
+
+	public boolean LineIsCommented(String line)
+	{
+		return LineStartsWithTestString(line,"#");
+	}
+	
+	public boolean LineStartsWithHost(String line)
+	{
+		return LineStartsWithTestString(line,"host");
+	}
+	
+	private boolean LineStartsWithTestString(String line, String TestString)
+	{
+		int indexTag;
+		
+		indexTag=line.indexOf(TestString);
+		
+		return 0==indexTag;
+	}
+	
+}

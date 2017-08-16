@@ -1,0 +1,45 @@
+
+public class DHCPConfig {
+
+	public boolean LineIsCommented(String line)
+	{
+		return LineStartsWithTestString(line,"#");
+	}
+	
+	public boolean LineStartsWithHost(String line)
+	{
+		return LineStartsWithTestString(line,"host");
+	}
+	
+	public boolean LineStartsWithOpenParenthese(String line)
+	{
+		return LineStartsWithTestString(line,"{");
+	}
+	
+	public boolean LineStartsWithCloseParenthese(String line)
+	{
+		return LineStartsWithTestString(line,"}");
+	}
+	public boolean LineEndsWithSemiColon(String line)
+	{
+		return LineEndsWithTestString(line,";");
+	}
+	
+	private boolean LineStartsWithTestString(String line, String TestString)
+	{
+		int indexTag;
+		
+		indexTag=line.indexOf(TestString);
+		
+		return 0==indexTag;
+	}
+
+	private boolean LineEndsWithTestString(String line, String TestString)
+	{
+		int indexTag;
+		
+		indexTag=line.indexOf(TestString);
+		
+		return line.length()==(indexTag+1) ;
+	}
+}

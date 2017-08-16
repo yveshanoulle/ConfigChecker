@@ -1,0 +1,21 @@
+
+public class DHCPConfig {
+
+	public boolean LineIsCommented(String line)
+	{
+		int indexTag;
+		
+		indexTag=line.indexOf("#");
+		
+		return 0==indexTag;
+	}
+	
+	public boolean LineStartsWithHost(String line)
+	{
+		int indexTag;
+		
+		indexTag=line.indexOf("host");
+		
+		return 0==indexTag;
+	}
+}

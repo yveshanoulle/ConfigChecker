@@ -1,0 +1,8 @@
+
+public class DHCPConfig {
+
+	boolean LineIsCommented(String line)
+	{
+		return false
+	}
+}

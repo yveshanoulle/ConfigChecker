@@ -1,0 +1,12 @@
+
+public class DHCPConfig {
+
+	public boolean LineIsCommented(String line)
+	{
+		int indexHashTag;
+		
+		indexHashTag=line.indexOf("#");
+		
+		return indexHashTag>0;
+	}
+}

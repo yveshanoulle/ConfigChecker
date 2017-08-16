@@ -1,0 +1,15 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class DHCPConfigTest {
+
+	@Test
+	public void DHCPConfigLineIsCommentedTest() {
+		
+		DHCPConfig myDHCPConfig = new DHCPConfig();
+		
+		assertTrue(myDHCPConfig.LineIsCommented("Is not commented","#Config"));
+	}
+
+}
