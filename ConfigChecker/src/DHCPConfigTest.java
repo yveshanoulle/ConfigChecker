@@ -107,4 +107,26 @@ public class DHCPConfigTest {
 		assertFalse(myDHCPConfig.LineIsEmpty("    A        "));
 
 	}
+	@Test
+	public void OpenFileTest(){
+		                     
+		String FileLocation="dhcpdCorrectFile.conf";
+		String Url;
+		Url=DHCPConfigTest.class.getClassLoader().getResource( FileLocation).getPath();
+		
+		assertNotNull(myDHCPConfig.OpenFile(Url));
+
+	}
+	
+	 
+	@Test
+	public void CorrectFileTest(){
+		String FileLocation="dhcpdCorrectFile.conf";
+		String Url;
+		Url=DHCPConfigTest.class.getClassLoader().getResource( FileLocation).getPath();
+		
+		assertTrue(myDHCPConfig.VerifyFile(Url));
+
+	}
+	
 }

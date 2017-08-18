@@ -1,5 +1,7 @@
-
-
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.List;
 
 public class DHCPConfig {
 
@@ -37,8 +39,38 @@ public class DHCPConfig {
 				LineContainsOnlyCloseParenthese(line) ||
 				LineIsEmpty(line) ;
 	}
+	public boolean VerifyFile(String fileToCheck)
+	{
+		List<String> lines;
+		lines= OpenFile (fileToCheck);
+		
+		
+		
+		return true;
+	}
 	
-	
+	public List<String> OpenFile(String fileToOpen)
+	{
+		 List<String> records = new ArrayList<String>();
+		  try
+		  {
+		    BufferedReader reader = new BufferedReader(new FileReader(fileToOpen));
+		    String line;
+		    while ((line = reader.readLine()) != null)
+		    {
+		      records.add(line);
+		    }
+		    reader.close();
+		    return records;
+		  }
+		  catch (Exception e)
+		  {
+		   // System.err.format("Exception occurred trying to read '%s'.", fileToOpen);
+		   // e.printStackTrace();
+		    return null;
+		  }
+		//return true;
+	}
 	private boolean LineStartsWithOpenParenthese(String line)
 	{
 		return LineStartsWithTestString(line,"{");
