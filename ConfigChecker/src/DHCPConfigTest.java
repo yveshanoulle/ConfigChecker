@@ -129,4 +129,15 @@ public class DHCPConfigTest {
 
 	}
 	
+	@Test
+	public void LastErrorLineInCorrectFileisZeroTest(){
+		String FileLocation="dhcpdCorrectFile.conf";
+		String Url;
+		Url=DHCPConfigTest.class.getClassLoader().getResource( FileLocation).getPath();
+		
+		assertEquals(0,myDHCPConfig.FindLastErrorLineInFile(Url));
+
+	}
+	
+	
 }

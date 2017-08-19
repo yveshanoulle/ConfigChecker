@@ -41,18 +41,32 @@ public class DHCPConfig {
 	}
 	public boolean VerifyFile(String fileToCheck)
 	{
+		int lastErrorLine;
+		
+		lastErrorLine= FindLastErrorLineInFile(fileToCheck);
+		
+		
+		return 0==lastErrorLine;
+	}
+	public int FindLastErrorLineInFile(String fileToCheck)
+	{
 		List<String> lines;
 		lines= OpenFile (fileToCheck);
 		int lastErrorLine=0;
-		boolean returnValue=true;
+		int lineNr=0;
+		boolean errorFree=false;
 		
 		for (String line : lines) {
-			returnValue=returnValue && LineIsCorrect(line);
-			lastErrorLine=lastErrorLine+1;
+			lineNr=lineNr+1;
+			errorFree= LineIsCorrect(line);
+			if (! errorFree)
+			{
+				lastErrorLine=lineNr;
+			}
 		}
 		
 		
-		return returnValue;
+		return lastErrorLine;
 	}
 	
 	public List<String> OpenFile(String fileToOpen)
