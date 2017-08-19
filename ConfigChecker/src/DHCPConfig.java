@@ -165,7 +165,7 @@ public class DHCPConfig {
 	{
 		int indexTag;
 		
-		indexTag=line.indexOf(TestString);
+		indexTag=line.trim().indexOf(TestString);
 		
 		return 0==indexTag;
 	}
@@ -173,8 +173,8 @@ public class DHCPConfig {
 	{
 		int indexTag;
 		
-		indexTag=line.indexOf(TestString);
+		indexTag=line.trim().indexOf(TestString);
 		
-		return line.length()==(indexTag+1) ;
+		return line.trim().length()==(indexTag+1) ;
 	}
 }
