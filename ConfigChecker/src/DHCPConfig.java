@@ -52,7 +52,7 @@ public class DHCPConfig {
 		lastErrorLine= FindLastErrorLineInFile(fileToCheck);
 		
 		
-		return 0==lastErrorLine;
+		return (0==lastErrorLine) && SameNumberOfParentheses(fileToCheck);
 	}
 	public int FindLastErrorLineInFile(String fileToCheck)
 	{
@@ -74,6 +74,55 @@ public class DHCPConfig {
 		
 		return lastErrorLine;
 	}
+	
+	public int CountOpenParentheses(String fileToCheck)
+	{
+		List<String> lines;
+		lines= OpenFile (fileToCheck);
+		int NrOfOpeningParenthese=0;
+		
+				
+		for (String line : lines) 
+			{
+			
+			if (LineStartsWithOpenParenthese(line))
+				{
+					NrOfOpeningParenthese++;
+				}
+			
+			}
+		
+		return NrOfOpeningParenthese;
+	}
+	public int CountClosingParentheses(String fileToCheck)
+	{
+
+		List<String> lines;
+		lines= OpenFile (fileToCheck);
+		int NrOfClosingParenthese=0;
+		
+				
+		for (String line : lines) 
+			{
+			
+			if (LineStartsWithCloseParenthese(line))
+				{
+				NrOfClosingParenthese++;
+				}
+			
+			}
+		
+		return NrOfClosingParenthese;
+		
+		
+	}
+	
+	public boolean SameNumberOfParentheses(String fileToCheck)
+	{
+		
+		return CountClosingParentheses(fileToCheck) == CountOpenParentheses(fileToCheck);
+		}
+	
 	
 	public List<String> OpenFile(String fileToOpen)
 	{

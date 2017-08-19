@@ -171,5 +171,34 @@ public class DHCPConfigTest {
 
 	}
 	
+	@Test
+	public void NumberOfOpeningParenthesesIs4Test(){
+		String FileLocation="dhcpdCorrectFile.conf";
+		String Url;
+		Url=DHCPConfigTest.class.getClassLoader().getResource( FileLocation).getPath();
+		
+		assertEquals(4,myDHCPConfig.CountOpenParentheses(Url));
+
+	}
+	@Test
+	public void NumberOfClosingParenthesesIs4Test(){
+		String FileLocation="dhcpdCorrectFile.conf";
+		String Url;
+		Url=DHCPConfigTest.class.getClassLoader().getResource( FileLocation).getPath();
+		
+		assertEquals(4,myDHCPConfig.CountClosingParentheses(Url));
+
+	}
+	
+	@Test
+	public void SameNumberOfParenthesesTest(){
+		String FileLocation="dhcpdCorrectFile.conf";
+		String Url;
+		Url=DHCPConfigTest.class.getClassLoader().getResource( FileLocation).getPath();
+		
+		assertTrue(myDHCPConfig.SameNumberOfParentheses(Url));
+
+	}
+	
 	
 }
