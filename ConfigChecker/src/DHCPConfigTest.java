@@ -99,7 +99,7 @@ public class DHCPConfigTest {
 		assertFalse("Line does start with parenthese",myDHCPConfig.LineContainsOnlyCloseParenthese("{more text "));
 	}
 	@Test
-	public void LineOnlyContainsCloseParentheseTest() {
+	public void LineOnlyContainsCloseParentheseTest() { 
 		assertTrue(myDHCPConfig.LineContainsOnlyCloseParenthese("}"));
 	}
 	@Test
