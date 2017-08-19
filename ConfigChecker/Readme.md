@@ -18,5 +18,7 @@ The first version of this tool; only checks DHCP files, the idea is to add more 
 As it's an MVP, the tool is very strict on what is allowed. F.ex. it expects { and } to be alone on a line. 
 That is technically stricter then what the DHCP tool allows, yet that makes it a lot easier to locate the problems. 
 
-The goal of the project is to use the tool as a command line tool. The first parameter is a link to where the file to be verified can be found, the second the name of the log file. (If no log location is given the tool logs to ConfigChecker.log in the same location of the Configfile to check.) The tool returns TRUE if everything is fine; It returns FALSE when the file is NOT OK.  
+At this moment the project only tests file in project mode. 
+In the future version, this will be a command line tool. 
+The tool will returns TRUE if everything is fine; It will returns FALSE when the file is NOT OK.  
 
