@@ -85,11 +85,10 @@ public class DHCPConfig {
 		  }
 		  catch (Exception e)
 		  {
-		   // System.err.format("Exception occurred trying to read '%s'.", fileToOpen);
-		   // e.printStackTrace();
+		    e.printStackTrace();
 		    return null;
 		  }
-		//return true;
+	
 	}
 	private boolean LineStartsWithOpenParenthese(String line)
 	{
