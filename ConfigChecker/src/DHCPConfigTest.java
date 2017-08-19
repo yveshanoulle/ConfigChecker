@@ -25,6 +25,29 @@ public class DHCPConfigTest {
 	public void LineIsHasCommentHalfwayTest() {
 		assertFalse(myDHCPConfig.LineIsCommented("Not Commented line # Commented Part"));
 	}
+	
+	@Test
+	public void LineStartsWithSubnettIsCorrectTest() {
+		assertTrue(myDHCPConfig.LineIsCorrect("subnet config"));
+	}
+	
+	@Test
+	public void LineStartsWithSubnetTest() {
+		assertTrue(myDHCPConfig.LineStartsWithSubnet("subnet blahblah config"));
+	}
+	@Test
+	public void LineContainsNoSubnetTest() {
+		
+		DHCPConfig myDHCPConfig = new DHCPConfig();
+		
+		assertFalse(myDHCPConfig.LineStartsWithSubnet("A config file without the word we are looking for "));
+	}
+	
+	@Test
+	public void LineIsHasSubnetHalfwayTest() {
+		assertFalse("Test allows host word halfway, we don't allow that.  ",myDHCPConfig.LineStartsWithSubnet("Line has subnet word halfway, we don't allow that."));
+	}
+	
 	@Test
 	public void LineStartsWithHostTest() {
 		
@@ -45,7 +68,7 @@ public class DHCPConfigTest {
 	}
 	@Test
 	public void LineIsHasHostHalfwayTest() {
-		assertFalse("Test allows host word halfway, we don't allow that.  ",myDHCPConfig.LineIsCommented("Line has host word halfway, we don't allow that."));
+		assertFalse("Test allows host word halfway, we don't allow that.  ",myDHCPConfig.LineStartsWithHost("Line has host word halfway, we don't allow that."));
 	}
 	@Test
 	public void LineEndsWithSemiColonTest() {

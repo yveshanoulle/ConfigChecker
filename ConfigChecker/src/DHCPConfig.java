@@ -9,6 +9,11 @@ public class DHCPConfig {
 	{
 		return LineStartsWithTestString(line,"#");
 	}
+	
+	public boolean LineStartsWithSubnet(String line)
+	{
+		return LineStartsWithTestString(line,"subnet");
+	}
 	public boolean LineStartsWithHost(String line)
 	{
 		return LineStartsWithTestString(line,"host");
@@ -34,6 +39,7 @@ public class DHCPConfig {
 	{
 		return 	LineIsCommented(line) ||
 				LineStartsWithHost(line) ||
+				LineStartsWithSubnet(line) ||
 				LineEndsWithSemiColon(line) ||
 				LineContainsOnlyOpenParenthese(line) ||
 				LineContainsOnlyCloseParenthese(line) ||
