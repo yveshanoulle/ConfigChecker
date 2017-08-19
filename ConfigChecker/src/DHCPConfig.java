@@ -43,10 +43,16 @@ public class DHCPConfig {
 	{
 		List<String> lines;
 		lines= OpenFile (fileToCheck);
+		int lastErrorLine=0;
+		boolean returnValue=true;
+		
+		for (String line : lines) {
+			returnValue=returnValue && LineIsCorrect(line);
+			lastErrorLine=lastErrorLine+1;
+		}
 		
 		
-		
-		return true;
+		return returnValue;
 	}
 	
 	public List<String> OpenFile(String fileToOpen)
