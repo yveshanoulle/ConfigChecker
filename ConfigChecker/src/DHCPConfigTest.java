@@ -199,6 +199,17 @@ public class DHCPConfigTest {
 		assertTrue(myDHCPConfig.SameNumberOfParentheses(Url));
 
 	}
+	@Test
+	public void OneClosingParenthesesMissingTest(){
+		String FileLocation="dhcpunOneClosingParentheseMissing.conf";
+		String Url;
+		Url=DHCPConfigTest.class.getClassLoader().getResource( FileLocation).getPath();
+		
+		assertFalse(myDHCPConfig.SameNumberOfParentheses(Url));
+
+	}
+	
+	
 	
 	
 }
