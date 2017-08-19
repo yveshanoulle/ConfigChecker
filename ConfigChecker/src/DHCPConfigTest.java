@@ -161,6 +161,15 @@ public class DHCPConfigTest {
 		assertEquals(0,myDHCPConfig.FindLastErrorLineInFile(Url));
 
 	}
+	@Test
+	public void LastErrorLineIs28Test(){
+		String FileLocation="dhcpErrorInLine28.conf";
+		String Url;
+		Url=DHCPConfigTest.class.getClassLoader().getResource( FileLocation).getPath();
+		
+		assertEquals(28,myDHCPConfig.FindLastErrorLineInFile(Url));
+
+	}
 	
 	
 }
