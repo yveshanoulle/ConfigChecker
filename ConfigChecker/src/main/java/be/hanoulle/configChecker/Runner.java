@@ -1,4 +1,4 @@
-package be.hanoulle.configChecker;
+package main.java.be.hanoulle.configChecker;
 
 public class Runner {
 

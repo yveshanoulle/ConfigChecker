@@ -1,6 +1,11 @@
+package main.java.be.hanoulle.configChecker;
+
 import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
+
+
+
 
 public class DHCPConfigTest {
 	DHCPConfig myDHCPConfig;
