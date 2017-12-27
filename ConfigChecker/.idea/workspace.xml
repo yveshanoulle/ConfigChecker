@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee09edca-7623-422c-87ec-cc3b1fb78492" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ConfigChecker.iml" afterPath="$PROJECT_DIR$/ConfigChecker.iml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/DHCPConfigTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/dhcpErrorInLine.conf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/dhcpErrorInLine28.conf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/dhcpdCorrectFile.conf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/dhcpdCorrectFileBackUp.conf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/dhcpunOneClosingParentheseMissing.conf" afterPath="" />
-    </list>
+    <list default="true" id="ee09edca-7623-422c-87ec-cc3b1fb78492" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
