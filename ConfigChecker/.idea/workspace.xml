@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee09edca-7623-422c-87ec-cc3b1fb78492" name="Default" comment="" />
+    <list default="true" id="ee09edca-7623-422c-87ec-cc3b1fb78492" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/ConfigChecker.iml" afterPath="$PROJECT_DIR$/ConfigChecker.iml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/DHCPConfigTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/dhcpErrorInLine.conf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/dhcpErrorInLine28.conf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/dhcpdCorrectFile.conf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/dhcpdCorrectFileBackUp.conf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/dhcpunOneClosingParentheseMissing.conf" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,21 +23,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="DHCPConfigTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/DHCPConfigTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/be/hanoulle/configChecker/DHCPConfigTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-340">
-              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="65">
+              <caret line="178" column="4" lean-forward="false" selection-start-line="178" selection-start-column="4" selection-end-line="178" selection-end-column="4" />
+              <folding>
+                <element signature="e#919#920#0" expanded="true" />
+                <element signature="e#997#998#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dhcpdCorrectFile.conf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/be/hanoulle/configChecker/dhcpdCorrectFile.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Readme.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Readme.md">
+      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="65" lean-forward="true" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="117" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DHCPConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/DHCPConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="49" column="29" lean-forward="false" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="29" />
+              <folding>
+                <element signature="method#LineContainsOnlyOpenParenthese#0;class#DHCPConfig#0" expanded="false" />
+                <element signature="method#LineContainsOnlyCloseParenthese#0;class#DHCPConfig#0" expanded="false" />
+                <element signature="method#VerifyFile#0;class#DHCPConfig#0" expanded="false" />
+                <element signature="method#FindLastErrorLineInFile#0;class#DHCPConfig#0" expanded="false" />
+                <element signature="method#CountOpenParentheses#0;class#DHCPConfig#0" expanded="false" />
+                <element signature="method#CountClosingParentheses#0;class#DHCPConfig#0" expanded="false" />
+                <element signature="method#SameNumberOfParentheses#0;class#DHCPConfig#0" expanded="false" />
+                <element signature="method#OpenFile#0;class#DHCPConfig#0" expanded="false" />
+                <element signature="method#LineStartsWithTestString#0;class#DHCPConfig#0" expanded="false" />
+                <element signature="method#LineEndsWithTestString#0;class#DHCPConfig#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,6 +82,9 @@
     <findStrings>
       <find>SelfDescribing</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -54,15 +101,23 @@
         <option value="$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/Tests/DHCPConfigTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/tester/DHCPConfigTest.java" />
         <option value="$PROJECT_DIR$/.classpath" />
+        <option value="$PROJECT_DIR$/src/test/java/be/hanoulle/configChecker/dhcpdCorrectFile.conf" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1838" />
     <option name="y" value="143" />
     <option name="width" value="1920" />
     <option name="height" value="1057" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -78,6 +133,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="ConfigChecker" type="cbb8eebc:String" user="ConfigChecker" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -107,17 +173,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="ConfigChecker" type="cbb8eebc:String" user="ConfigChecker" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,19 +189,24 @@
             </path>
             <path>
               <item name="ConfigChecker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="ConfigChecker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="configChecker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ConfigChecker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ConfigChecker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="configChecker" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ConfigChecker" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="JUnit4" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -170,7 +232,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DHCPConfigTest">
+  <component name="RunManager" selected="JUnit.DHCPConfigTest.NumberOfOpeningParenthesesIs4Test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -221,7 +283,7 @@
       <module name="ConfigChecker" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="main.java.be.hanoulle.configChecker" />
+      <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="main.java.be.hanoulle.configChecker.DHCPConfigTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
@@ -236,7 +298,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="DHCPConfigTest.LastErrorLineInCorrectFileisZeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DHCPConfigTest.CorrectFileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="main.java.be.hanoulle.configChecker.*" />
@@ -246,9 +308,59 @@
       <module name="ConfigChecker" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="main.java.be.hanoulle.configChecker" />
+      <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="main.java.be.hanoulle.configChecker.DHCPConfigTest" />
-      <option name="METHOD_NAME" value="LastErrorLineInCorrectFileisZeroTest" />
+      <option name="METHOD_NAME" value="CorrectFileTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="DHCPConfigTest.LineIsCommentedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="main.java.be.hanoulle.configChecker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ConfigChecker" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="main.java.be.hanoulle.configChecker.DHCPConfigTest" />
+      <option name="METHOD_NAME" value="LineIsCommentedTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="DHCPConfigTest.NumberOfOpeningParenthesesIs4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="main.java.be.hanoulle.configChecker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ConfigChecker" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="main.java.be.hanoulle.configChecker.DHCPConfigTest" />
+      <option name="METHOD_NAME" value="NumberOfOpeningParenthesesIs4Test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
@@ -321,16 +433,20 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Runner" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DHCPConfigTest.LastErrorLineInCorrectFileisZeroTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DHCPConfigTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DHCPConfigTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DHCPConfigTest.LineIsCommentedTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DHCPConfigTest.CorrectFileTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DHCPConfigTest.NumberOfOpeningParenthesesIs4Test" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DHCPConfigTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DHCPConfigTest.LastErrorLineInCorrectFileisZeroTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Runner" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DHCPConfigTest.NumberOfOpeningParenthesesIs4Test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DHCPConfigTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DHCPConfigTest.CorrectFileTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DHCPConfigTest.LineIsCommentedTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -348,26 +464,26 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DHCPConfigTest - 2017.12.27 at 00h 31m 03s.xml">
+    <history-entry file="DHCPConfigTest - 2017.12.27 at 00h 48m 29s.xml">
       <configuration name="DHCPConfigTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DHCPConfigTest - 2017.12.27 at 00h 35m 01s.xml">
+    <history-entry file="DHCPConfigTest - 2017.12.27 at 00h 51m 07s.xml">
       <configuration name="DHCPConfigTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DHCPConfigTest_LastErrorLineInCorrectFileisZeroTest - 2017.12.27 at 00h 30m 51s.xml">
-      <configuration name="DHCPConfigTest.LastErrorLineInCorrectFileisZeroTest" configurationId="JUnit" />
+    <history-entry file="DHCPConfigTest - 2017.12.27 at 01h 10m 33s.xml">
+      <configuration name="DHCPConfigTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DHCPConfigTest_LastErrorLineInCorrectFileisZeroTest - 2017.12.27 at 00h 34m 51s.xml">
-      <configuration name="DHCPConfigTest.LastErrorLineInCorrectFileisZeroTest" configurationId="JUnit" />
+    <history-entry file="DHCPConfigTest - 2017.12.27 at 01h 18m 18s.xml">
+      <configuration name="DHCPConfigTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DHCPConfigTest_LineIsCommentedTest - 2017.12.26 at 23h 11m 56s.xml">
+    <history-entry file="DHCPConfigTest_CorrectFileTest - 2017.12.27 at 01h 16m 59s.xml">
+      <configuration name="DHCPConfigTest.CorrectFileTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DHCPConfigTest_LineIsCommentedTest - 2017.12.27 at 01h 10m 10s.xml">
       <configuration name="DHCPConfigTest.LineIsCommentedTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DHCPConfigTest_LineIsCommentedTest - 2017.12.27 at 00h 00m 39s.xml">
-      <configuration name="DHCPConfigTest.LineIsCommentedTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DHCPConfigTest_LineIsCommentedTest - 2017.12.27 at 00h 08m 39s.xml">
-      <configuration name="DHCPConfigTest.LineIsCommentedTest" configurationId="JUnit" />
+    <history-entry file="DHCPConfigTest_NumberOfOpeningParenthesesIs4Test - 2017.12.27 at 01h 19m 29s.xml">
+      <configuration name="DHCPConfigTest.NumberOfOpeningParenthesesIs4Test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="main_java_be_hanoulle_configChecker_in_ConfigChecker - 2017.12.26 at 18h 27m 17s.xml">
       <configuration name="main.java.be.hanoulle.configChecker in ConfigChecker" configurationId="JUnit" />
@@ -380,7 +496,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1838" y="143" width="1920" height="1057" extended-state="0" />
+    <frame x="-1920" y="23" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -389,16 +506,16 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56348073" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44802496" sideWeight="0.5671875" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4645094" sideWeight="0.5671875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18423855" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.185836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39970502" sideWeight="0.49791667" order="3" side_tool="false" content_ui="tabs" />
@@ -424,7 +541,27 @@
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/DHCPConfigTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/DHCPConfigTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -448,17 +585,14 @@
         <state relative-caret-position="225">
           <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="method#LineContainsOnlyOpenParenthese#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#LineContainsOnlyCloseParenthese#0;class#DHCPConfig#0" expanded="false" />
-            <element signature="method#LineIsCorrect#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#VerifyFile#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#FindLastErrorLineInFile#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#CountOpenParentheses#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#CountClosingParentheses#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#SameNumberOfParentheses#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#OpenFile#0;class#DHCPConfig#0" expanded="false" />
-            <element signature="e#2734#2742#0" expanded="false" />
             <element signature="method#LineStartsWithTestString#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#LineEndsWithTestString#0;class#DHCPConfig#0" expanded="false" />
           </folding>
@@ -471,17 +605,14 @@
         <state relative-caret-position="225">
           <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="method#LineContainsOnlyOpenParenthese#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#LineContainsOnlyCloseParenthese#0;class#DHCPConfig#0" expanded="false" />
-            <element signature="method#LineIsCorrect#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#VerifyFile#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#FindLastErrorLineInFile#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#CountOpenParentheses#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#CountClosingParentheses#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#SameNumberOfParentheses#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#OpenFile#0;class#DHCPConfig#0" expanded="false" />
-            <element signature="e#2734#2742#0" expanded="false" />
             <element signature="method#LineStartsWithTestString#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#LineEndsWithTestString#0;class#DHCPConfig#0" expanded="false" />
           </folding>
@@ -494,17 +625,14 @@
         <state relative-caret-position="225">
           <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="method#LineContainsOnlyOpenParenthese#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#LineContainsOnlyCloseParenthese#0;class#DHCPConfig#0" expanded="false" />
-            <element signature="method#LineIsCorrect#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#VerifyFile#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#FindLastErrorLineInFile#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#CountOpenParentheses#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#CountClosingParentheses#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#SameNumberOfParentheses#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#OpenFile#0;class#DHCPConfig#0" expanded="false" />
-            <element signature="e#2734#2742#0" expanded="false" />
             <element signature="method#LineStartsWithTestString#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#LineEndsWithTestString#0;class#DHCPConfig#0" expanded="false" />
           </folding>
@@ -516,17 +644,14 @@
         <state relative-caret-position="555">
           <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="method#LineContainsOnlyOpenParenthese#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#LineContainsOnlyCloseParenthese#0;class#DHCPConfig#0" expanded="false" />
-            <element signature="method#LineIsCorrect#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#VerifyFile#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#FindLastErrorLineInFile#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#CountOpenParentheses#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#CountClosingParentheses#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#SameNumberOfParentheses#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#OpenFile#0;class#DHCPConfig#0" expanded="false" />
-            <element signature="e#2734#2742#0" expanded="false" />
             <element signature="method#LineStartsWithTestString#0;class#DHCPConfig#0" expanded="false" />
             <element signature="method#LineEndsWithTestString#0;class#DHCPConfig#0" expanded="false" />
           </folding>
@@ -563,28 +688,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/tests/dhcpdCorrectFile.conf" />
     <entry file="file://$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/tests/DHCPConfigTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/DHCPConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#LineContainsOnlyOpenParenthese#0;class#DHCPConfig#0" expanded="false" />
-            <element signature="method#LineContainsOnlyCloseParenthese#0;class#DHCPConfig#0" expanded="false" />
-            <element signature="method#LineIsCorrect#0;class#DHCPConfig#0" expanded="false" />
-            <element signature="method#VerifyFile#0;class#DHCPConfig#0" expanded="false" />
-            <element signature="method#FindLastErrorLineInFile#0;class#DHCPConfig#0" expanded="false" />
-            <element signature="method#CountOpenParentheses#0;class#DHCPConfig#0" expanded="false" />
-            <element signature="method#CountClosingParentheses#0;class#DHCPConfig#0" expanded="false" />
-            <element signature="method#SameNumberOfParentheses#0;class#DHCPConfig#0" expanded="false" />
-            <element signature="method#OpenFile#0;class#DHCPConfig#0" expanded="false" />
-            <element signature="e#2734#2742#0" expanded="false" />
-            <element signature="method#LineStartsWithTestString#0;class#DHCPConfig#0" expanded="false" />
-            <element signature="method#LineEndsWithTestString#0;class#DHCPConfig#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/tester/DHCPConfigTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/dhcpdCorrectFile.conf">
       <provider selected="true" editor-type-id="text-editor">
@@ -659,26 +762,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/Runner.java">
+    <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/DHCPConfigTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-340">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="15">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.md">
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/DHCPConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="319">
+          <caret line="49" column="29" lean-forward="false" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="29" />
+          <folding>
+            <element signature="method#LineContainsOnlyOpenParenthese#0;class#DHCPConfig#0" expanded="false" />
+            <element signature="method#LineContainsOnlyCloseParenthese#0;class#DHCPConfig#0" expanded="false" />
+            <element signature="method#VerifyFile#0;class#DHCPConfig#0" expanded="false" />
+            <element signature="method#FindLastErrorLineInFile#0;class#DHCPConfig#0" expanded="false" />
+            <element signature="method#CountOpenParentheses#0;class#DHCPConfig#0" expanded="false" />
+            <element signature="method#CountClosingParentheses#0;class#DHCPConfig#0" expanded="false" />
+            <element signature="method#SameNumberOfParentheses#0;class#DHCPConfig#0" expanded="false" />
+            <element signature="method#OpenFile#0;class#DHCPConfig#0" expanded="false" />
+            <element signature="method#LineStartsWithTestString#0;class#DHCPConfig#0" expanded="false" />
+            <element signature="method#LineEndsWithTestString#0;class#DHCPConfig#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/be/hanoulle/configChecker/dhcpdCorrectFile.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/be/hanoulle/configChecker/DHCPConfigTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="178" column="4" lean-forward="false" selection-start-line="178" selection-start-column="4" selection-end-line="178" selection-end-column="4" />
+          <folding>
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="65" lean-forward="true" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="117" />
           <folding />
         </state>
       </provider>
@@ -740,6 +881,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

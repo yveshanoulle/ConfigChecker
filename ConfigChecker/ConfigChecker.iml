@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/java/be/hanoulle/configChecker/tests/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/java/be/hanoulle/configChecker" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java/be/hanoulle/configChecker" type="java-test-resource" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="jdk" jdkName="9.0" jdkType="JavaSDK" />
