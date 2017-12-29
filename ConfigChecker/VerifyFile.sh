@@ -1,1 +1,1 @@
-java -jar configChecker.jar -cp ./bin/main/java;. dhcpdCorrectFile.conf
+java  -jar configChecker.jar  dhcpdCorrectFile.conf 

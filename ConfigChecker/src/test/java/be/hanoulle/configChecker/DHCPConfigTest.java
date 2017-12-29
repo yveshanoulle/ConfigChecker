@@ -1,15 +1,13 @@
-package main.java.be.hanoulle.configChecker;
+package be.hanoulle.configChecker;
 
 import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
 
-
-
 public class DHCPConfigTest {
 	DHCPConfig myDHCPConfig;
-	
+
 	@Before
     public void setUp() throws Exception{
 		myDHCPConfig = new DHCPConfig();

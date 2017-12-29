@@ -1,10 +1,11 @@
-package main.java.be.hanoulle.configChecker;
+package be.hanoulle.configChecker;
 
 public class Runner {
 
     // Usage: assuming you've compiled your java classes to a target directory in the root of the project:
     // 1. Navigate inside the target dir
     // 2. Create a jar file: jar cfvm ../configChecker.jar ../src/manifest.mf be/hanoulle/configChecker/DHCPConfig.class be/hanoulle/configChecker/Runner.class
+    // 3. old Run the jar as follows (from the root of the project): java -jar configChecker.jar locationOfSomeConfigFile
     // 3. Run the jar as follows (from the root of the project): java -jar configChecker.jar locationOfSomeConfigFile
 
     public static void main(String[] args) {
@@ -19,4 +20,5 @@ public class Runner {
             System.out.println("Error: no file name given. Please provide the filename as first argument");
         }
     }
+
 }
