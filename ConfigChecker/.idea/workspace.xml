@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee09edca-7623-422c-87ec-cc3b1fb78492" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ConfigChecker.iml" afterPath="$PROJECT_DIR$/ConfigChecker.iml" />
-      <change beforePath="$PROJECT_DIR$/CreateJar.sh" afterPath="$PROJECT_DIR$/CreateJar.sh" />
       <change beforePath="$PROJECT_DIR$/VerifyFile.sh" afterPath="$PROJECT_DIR$/VerifyFile.sh" />
       <change beforePath="$PROJECT_DIR$/configChecker.jar" afterPath="$PROJECT_DIR$/configChecker.jar" />
-      <change beforePath="$PROJECT_DIR$/dhcpdCorrectFile.conf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/DHCPConfig.java" afterPath="$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/DHCPConfig.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/Runner.java" afterPath="$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/Runner.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/be/hanoulle/configChecker/DHCPConfigTest.java" afterPath="$PROJECT_DIR$/src/test/java/be/hanoulle/configChecker/DHCPConfigTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/be/hanoulle/configChecker/dhcpErrorInLine.conf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/be/hanoulle/configChecker/dhcpErrorInLine28.conf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/be/hanoulle/configChecker/dhcpdCorrectFile.conf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/be/hanoulle/configChecker/dhcpdCorrectFileBackUp.conf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/be/hanoulle/configChecker/dhcpunOneClosingParentheseMissing.conf" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,22 +16,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="VerifyFile.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VerifyFile.sh">
+      <file leaf-file-name="DHCPConfigTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/be/hanoulle/configChecker/DHCPConfigTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="227">
+              <caret line="142" column="21" lean-forward="true" selection-start-line="142" selection-start-column="21" selection-end-line="142" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/Runner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateJar.sh" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CreateJar.sh">
+      <file leaf-file-name="DHCPConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/DHCPConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="178">
+              <caret line="49" column="29" lean-forward="false" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#LineIsCorrect#0;class#DHCPConfig#0" expanded="false" />
+                <element signature="method#FindLastErrorLineInFile#0;class#DHCPConfig#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,12 +76,12 @@
         <option value="$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/tester/DHCPConfigTest.java" />
         <option value="$PROJECT_DIR$/.classpath" />
         <option value="$PROJECT_DIR$/src/test/java/be/hanoulle/configChecker/dhcpdCorrectFile.conf" />
-        <option value="$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/Runner.java" />
         <option value="$PROJECT_DIR$/src/be/hanoulle/configChecker/DHCPConfig.java" />
         <option value="$PROJECT_DIR$/src/test/be/hanoulle/configChecker/DHCPConfigTest.java" />
         <option value="$PROJECT_DIR$/src/be/hanoulle/configChecker/Runner.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/DHCPConfig.java" />
         <option value="$PROJECT_DIR$/src/test/java/be/hanoulle/configChecker/DHCPConfigTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/Runner.java" />
       </list>
     </option>
   </component>
@@ -86,9 +91,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="99" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1722" />
+    <option name="y" value="172" />
     <option name="width" value="1280" />
     <option name="height" value="773" />
   </component>
@@ -148,6 +153,11 @@
             <path>
               <item name="ConfigChecker" type="b2602c69:ProjectViewProjectNode" />
               <item name="ConfigChecker" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ConfigChecker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ConfigChecker" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -169,6 +179,42 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="configChecker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ConfigChecker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ConfigChecker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ConfigChecker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ConfigChecker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ConfigChecker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ConfigChecker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="configChecker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ConfigChecker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ConfigChecker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ConfigChecker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ConfigChecker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="configChecker" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -399,7 +445,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="99" y="23" width="1280" height="773" extended-state="1" />
+    <frame x="-1722" y="172" width="1280" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -410,7 +456,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56348073" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5176991" sideWeight="0.5671875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5176991" sideWeight="0.5671875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -449,7 +495,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/be/hanoulle/configChecker/DHCPConfigTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/DHCPConfigTest.java" />
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="text-editor">
@@ -572,16 +617,6 @@
     <entry file="file://$PROJECT_DIR$/src/be/hanoulle/configChecker/DHCPConfig.java" />
     <entry file="file://$PROJECT_DIR$/src/be/hanoulle/configChecker/Runner.java" />
     <entry file="file://$PROJECT_DIR$/src/test/be/hanoulle/configChecker/DHCPConfigTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/DHCPConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/be/hanoulle/configChecker/dhcpdCorrectFile.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -590,20 +625,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/be/hanoulle/configChecker/DHCPConfigTest.java">
+    <entry file="file://$PROJECT_DIR$/CreateJar.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -616,10 +641,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CreateJar.sh">
+    <entry file="file://$PROJECT_DIR$/src/test/java/be/hanoulle/configChecker/DHCPConfigTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="142" column="21" lean-forward="true" selection-start-line="142" selection-start-column="21" selection-end-line="142" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/DHCPConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="49" column="29" lean-forward="false" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#LineIsCorrect#0;class#DHCPConfig#0" expanded="false" />
+            <element signature="method#FindLastErrorLineInFile#0;class#DHCPConfig#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/CreateJar.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/hanoulle/configChecker/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding />
         </state>
       </provider>
