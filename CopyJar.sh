@@ -1,2 +1,2 @@
 
-cp configChecker.jar ../../test/
+cp configChecker.jar ../../dhcp/

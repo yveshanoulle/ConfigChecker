@@ -50,11 +50,14 @@ public  class DHCPConfig {
 	public boolean VerifyFile(String fileToCheck)
 	{
 		int lastErrorLine;
-		
+		boolean sameNumberOfParentheses;
 		lastErrorLine= FindLastErrorLineInFile(fileToCheck);
-		
-		
-		return (0==lastErrorLine) && SameNumberOfParentheses(fileToCheck);
+        sameNumberOfParentheses=SameNumberOfParentheses(fileToCheck);
+
+		System.out.println("Last Error line: " +lastErrorLine);
+        System.out.println("Same number of parentheses: " +sameNumberOfParentheses);
+
+		return (0==lastErrorLine) && sameNumberOfParentheses;
 	}
 	public int FindLastErrorLineInFile(String fileToCheck)
 	{
