@@ -1,0 +1,2 @@
+
+cp configChecker.jar ../../test/
