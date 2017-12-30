@@ -1,1 +1,0 @@
-java  -jar configChecker.jar  src/test/resources/be/hanoulle/configChecker/dhcpdCorrectFile.conf 
