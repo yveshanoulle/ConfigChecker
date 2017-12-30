@@ -24,6 +24,8 @@ The tool will returns true if everything is fine; It will returns false when the
 
 See the ExampleUploadtoGitHub.sh for an example on how to use the configChecker.
 
+If you just want to manually check a dhcpd config file, you might want use dhcpd -t -cf /path/to/dhcpd.conf
+For me that does not work as the answer is to large to easily script around it. 
 
 
 
