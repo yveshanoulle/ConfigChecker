@@ -20,7 +20,7 @@ The current version of this tool, only checks DHCP files, the idea is to add mor
 As it's an MVP, the tool is very strict on what is allowed. F.ex. it expects { and } to be alone on a line. 
 That is technically stricter then what the DHCP tool allows, yet that makes it a lot easier to locate the problems. 
 
-The tool will returns TRUE if everything is fine; It will returns FALSE when the file is NOT OK.
+The tool will returns true if everything is fine; It will returns false when the file is NOT OK.
 
 See the ExampleUploadtoGitHub.sh for an example on how to use the configChecker.
 
