@@ -4,6 +4,8 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.io.File;
+
 
 public class DHCPConfigTest {
 	DHCPConfig myDHCPConfig;
@@ -154,7 +156,20 @@ public class DHCPConfigTest {
 		assertTrue(myDHCPConfig.VerifyFile(Url));
 
 	}
-	
+	@Test
+	public void RealFileTest(){
+		// This file is copied from my life installation every time we change and upload it.
+		// By adding the real file, I'm sure we keep testing real data
+
+		String FileLocation="dhcpd.conf";
+		String Url;
+
+		Url=DHCPConfigTest.class.getClassLoader().getResource( FileLocation).getPath();
+
+
+		assertTrue(myDHCPConfig.VerifyFile(Url));
+
+	}
 	@Test
 	public void LastErrorLineInCorrectFileisZeroTest(){
 		String FileLocation="dhcpdCorrectFile.conf";
